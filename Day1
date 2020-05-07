@@ -1,0 +1,19 @@
+1) Explain SDLC at a high level?
+SDLC is Software Development Life Cycle which have 7 stages
+planning, Analysis and requirements gathering, design, development/coding, testing, deployment and maintenance.
+2) What is waterfall and why it is still relevant?
+Waterfall is the one of the best methodologies in SDLC to develop a software.preferablly used for infrastructure project.
+3) Explain Agile Model with a use case and the role of SCRUM in that?
+Agile model is the booming and proved methodology for developing a software.It is adaptavie and have transperancy between the clients regardin requirements. 
+4) Who is Scrum Master?
+Scrum Master is need not to be a technical person but he manages the development team by assigning the tasks and filling the gaps and hurdles facing by the team.
+5) Differentiate between Product/Sprint Backlog?
+Backlog is nothing but the pending tasks from the team by the sprint. 
+6) What is Epic & Story?
+
+7) What is called Velocity in SCRUM
+8) Explain the SCRUM ceremonies
+9) What is grooming
+10) How Jira board is effective in SCRUM
+11) Differentiate between SCRUM & Waterfall
+12) Explain the responsibilities of Product Owner?
