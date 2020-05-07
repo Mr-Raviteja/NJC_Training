@@ -1,2 +1,2 @@
-# NJ_Training
+# NJC_Training
 Training Repo
