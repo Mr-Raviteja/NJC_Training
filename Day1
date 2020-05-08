@@ -12,7 +12,7 @@ Backlog is nothing but the tasks or updated requirement from the client which is
 6) What is Epic & Story?
 Epic is feature which we need to develop and the stroies are the tasks for achive the feature.
 7) What is called Velocity in SCRUM?
-
+speed of completing the user stories by the sprint
 8) Explain the SCRUM ceremonies?
 Sprint planning which is last atleast two weeks
 Daily standup/Scrum 
@@ -23,6 +23,8 @@ grooming is engaging the team with new technologies and problem solving skills t
 10) How Jira board is effective in SCRUM?
 It shows the assigned tasks/stories and the hours you take for the task,shows status,comments of the task.
 11) Differentiate between SCRUM & Waterfall?
-
+scrum is iterative of waterfall model.
+complex project can be handled by scrum and smaller project is handled by waterfall model.
+waterfall works in a linear fashion and cannot go back to previous stages whereas scrum model can.
 12) Explain the responsibilities of Product Owner?
 product owner is middle man between the client and the team who collects requirements from the client and engages with the team.
