@@ -8,12 +8,21 @@ Agile model is the booming and proved methodology for developing a software.It i
 4) Who is Scrum Master?
 Scrum Master is need not to be a technical person but he manages the development team by assigning the tasks and filling the gaps and hurdles facing by the team.
 5) Differentiate between Product/Sprint Backlog?
-Backlog is nothing but the pending tasks from the team by the sprint. 
+Backlog is nothing but the tasks or updated requirement from the client which is pending even the sprint is completed.
 6) What is Epic & Story?
+Epic is feature which we need to develop and the stroies are the tasks for achive the feature.
+7) What is called Velocity in SCRUM?
 
-7) What is called Velocity in SCRUM
-8) Explain the SCRUM ceremonies
-9) What is grooming
-10) How Jira board is effective in SCRUM
-11) Differentiate between SCRUM & Waterfall
+8) Explain the SCRUM ceremonies?
+Sprint planning which is last atleast two weeks
+Daily standup/Scrum 
+Sprint Reivew
+Sprint Retrospection
+9) What is grooming?
+grooming is engaging the team with new technologies and problem solving skills to accomplish a task or overcome a problem.
+10) How Jira board is effective in SCRUM?
+It shows the assigned tasks/stories and the hours you take for the task,shows status,comments of the task.
+11) Differentiate between SCRUM & Waterfall?
+
 12) Explain the responsibilities of Product Owner?
+product owner is middle man between the client and the team who collects requirements from the client and engages with the team.
