@@ -1,8 +1,11 @@
 Client-Server
 ------------
 Tell us about the features of client/server?
+The client server computing works with a system of request and response.The client sends a request to the server and the server responds with the desired information with a protocol.
 What is a Web server in a client server environment?
+web server will send the web pages requested from the client browser.
 What is the role of the presentation layer?
+It is client side where the view is presented.
 They say this architecture is secure, how is it done in your opinion?
 What is a Database Server in a client server environment?
 What are Super servers in client server environments?
