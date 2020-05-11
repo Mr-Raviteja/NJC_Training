@@ -2,30 +2,113 @@ Client-Server
 ------------
 Tell us about the features of client/server?
 The client server computing works with a system of request and response.The client sends a request to the server and the server responds with the desired information with a protocol.
+
 What is a Web server in a client server environment?
-web server will send the web pages requested from the client browser.
+web server is a server which has websites and serves the web pages requested from the client through browser.
+
 What is the role of the presentation layer?
-It is client side where the view is presented.
+presentation layer is the view layer for a user after all the process done by the server and passing all the layers in ISO model.
+
 They say this architecture is secure, how is it done in your opinion?
+In this endpoints have major role since it gives abstraction of the data and hides the implementation of logic and we can add security firewalls,authentications etc.
+
 What is a Database Server in a client server environment?
+In the client server we communicate the requests and responses through the serves but the final data is sits in the database server.we call it as data link layer.
+
 What are Super servers in client server environments?
+super servers are high in computational and gives robust performance these are needed when the web servers are at high in use.
+
 Explain 2-Tier and 3-Tier architecture
+2-tier is only have prensentatin layer or an interface with the client and data layer.which is a client server architecture with direct communication is happened.
+3-tier have presentation layer, business layer, data layer. where each layer has its importance
+Presentation layer is a UI part of the application or an interface for the user to communicate.
+Business layer is an intermediate layer for presentation layer and data layer where the we have the main business logic is written here.
+Data layer is where the actual data sits in the database after the logic is completed we have connectors and drivers to contact the database for storing and retriving of data.
+
 What is a File server?
+the server which deals with files over a network like accessing,tranfering,storing etc and SFTP is an example for file server accessing.
+
 
 SOA & MicroServices
 ------------------
 What are the main benefits of SOA?
-How can you achieve loose coupling in SOA
+Service Oriented Architechture are loosly coupled so they are reusable,platform independent,easily maintained and we can extend its functinalities indiviually.
+How can you achieve loose coupling in SOA?
+By running each services in each server and having endpoints to each services.
+
 Are web services and SOA the same?
+as a whole they are not same. web service is need not to be a SOA but it can use SOA.mainly web service are accessed through web.
 What is a reusable service?
+create once and use many times. when a service is loosly coupled,we can reuse it in to other applications where it is need.
+
 What are the disadvantages of SOA?
+SOA is complex and cost effective and hard to manage. 
 What is ESB and where does it fit in?
+Enterprise Service Bus will act as communication pipe/messaging bus between the applications in SOA.
 In SOA do we need to build a system from scratch?
+No, we can develop a service and just expose the endpoints. we have many service provider for the payments like masterCard,visa etc.
 What is the most important skill needed to adopt SOA ?technical or cultural?
-List down the advantages of Microservices Architecture.
+technical and business skills.
+List down the advantages of Microservices Architecture.?
+
+Independent of services with modularization.
+Better fault isolation
+Platform independent 
+flexibility in technology
+small and faster deployments with CICD
+scalability
+
 What are the best practices to design Microservices?
+
+Using REST and API GateWay
+Having seperate data storage for feasible modules
+Central Logging System
+Distributed configurtions
+deployment using containers
+CICD
+Event based communication between the services
+
 How does Microservice Architecture work?
+It have UI which interacts with API gateway where logging and security check can be done using ID server.
+If the request is valid then it goes to appropriate service and resource is fetched or stored in the database of the service.
+If any inter communication are needed between the services we can acheive using feign client or kafka messaging queue
+
 What are the pros and cons of Microservice Architecture?
+Pros
+----
+Maintenance is simpler and cheaper.
+Independent of services with modularization.
+Better fault isolation
+Platform independent 
+flexibility in technology
+small and faster deployments with CICD
+scalability
+Agile methodology is adaptive
+
+Cons
+----
+Heavy Infrastructure set
+Hard to manage 
+global Testing 
+Complexity
+integration
+
 What is the difference between Monolithic, SOA and Microservices Architecture?
+Monolithic Architecture is having all the code and implementation in one server which is tightly coupled.Scaling challenge is very often.
+SOA is loosly coupled where services are implemented in the independently which is breaking up the mnolithic Arch by components and resuable code can achived here and have scaling challenges.
+Microservices is implemented in modularzation of services With Restful APIS and independent depolyment and implementation of code can achived here, scaling is very easy.
 What are the challenges you face while working Microservice Architectures?
+Heavy Infrastructure set
+Hard to manage 
+global Testing 
+Complexity
+integration
 What are the characteristics of Microservices?
+Implement a Self-Registration and Discovery Mechanism
+Light weigth communication
+Distribution Transaction management
+independent security mechanism
+Each Service should have monitoring and troubleshooting capabilities for operation team
+testing of each service is done without depending on other services.
+Have seperate data layer.
+Deployed with each with its own process.
