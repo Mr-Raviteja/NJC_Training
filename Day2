@@ -33,24 +33,29 @@ SOA & MicroServices
 ------------------
 What are the main benefits of SOA?
 Service Oriented Architechture are loosly coupled so they are reusable,platform independent,easily maintained and we can extend its functinalities indiviually.
+
 How can you achieve loose coupling in SOA?
 By running each services in each server and having endpoints to each services.
 
 Are web services and SOA the same?
 as a whole they are not same. web service is need not to be a SOA but it can use SOA.mainly web service are accessed through web.
+
 What is a reusable service?
 create once and use many times. when a service is loosly coupled,we can reuse it in to other applications where it is need.
 
 What are the disadvantages of SOA?
 SOA is complex and cost effective and hard to manage. 
+
 What is ESB and where does it fit in?
 Enterprise Service Bus will act as communication pipe/messaging bus between the applications in SOA.
+
 In SOA do we need to build a system from scratch?
 No, we can develop a service and just expose the endpoints. we have many service provider for the payments like masterCard,visa etc.
+
 What is the most important skill needed to adopt SOA ?technical or cultural?
 technical and business skills.
-List down the advantages of Microservices Architecture.?
 
+List down the advantages of Microservices Architecture.?
 Independent of services with modularization.
 Better fault isolation
 Platform independent 
@@ -59,7 +64,6 @@ small and faster deployments with CICD
 scalability
 
 What are the best practices to design Microservices?
-
 Using REST and API GateWay
 Having seperate data storage for feasible modules
 Central Logging System
@@ -97,12 +101,14 @@ What is the difference between Monolithic, SOA and Microservices Architecture?
 Monolithic Architecture is having all the code and implementation in one server which is tightly coupled.Scaling challenge is very often.
 SOA is loosly coupled where services are implemented in the independently which is breaking up the mnolithic Arch by components and resuable code can achived here and have scaling challenges.
 Microservices is implemented in modularzation of services With Restful APIS and independent depolyment and implementation of code can achived here, scaling is very easy.
+
 What are the challenges you face while working Microservice Architectures?
 Heavy Infrastructure set
 Hard to manage 
 global Testing 
 Complexity
 integration
+
 What are the characteristics of Microservices?
 Implement a Self-Registration and Discovery Mechanism
 Light weigth communication
