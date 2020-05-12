@@ -16,3 +16,18 @@ Day4:11/05/2020
 interface real  time examples
 real time examples for oops concepts
 
+Day5:12/05/2020
+-----------------
+Munit Testing---> Mulesoft testing
+
+Manual testing-->Exploratory,Usability,Ad-hoc
+sandbox testing?
+test driven development?
+Code coverage tools
+Junit
+Load Runner and jmeter gives load and performance testing?
+
+performance tuning tools profilers, application monitoring tool like kibana.
+
+security testings how to test and what tools?
+
