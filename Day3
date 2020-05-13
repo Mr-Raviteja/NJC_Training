@@ -2,30 +2,61 @@ HTTP Fundamentals
 ----------------------
 
 What are the basic Features of HTTP?
+HTTP is connectionless,media independent,stateless or sessionless
 What are request methods in HTTP?
+GET,POST,PUT,DELETE are called Http Verbs
 What are the differences between GET and POST methods?
+Get method is used to fetch the information from the source where as POST method is used to save the data or send the data to the source.
 What is status code in HTTP?
+Http have the status codes to identify the status of the request like request success i.e 200 OK etc
 What are the header fields in HTTP?
+HTTP headers let the client and the server pass additional information like security,direction,confidentiality etc.
+Header fields types:
+1.General Header
+2.Request Header
+3.Response Header
+4.Entity Header
 What is URI?
+URI means Uniform Resource Identifier which identifies the resource or its like path for the resource. 
 What are Idempotent methods and why do we call them?
-Explain HTTP Request & Response Messages
+Making multiple identical requests has the same effect as making a single request.
+Explain HTTP Request & Response Messages?
+Http request is sent from a client to a server for accessing or storing data of the resource.
+Http response is the given from the server to the client based on the request sent from the client.
+usually actual data/mesage will be in the payload of data packet. 
 What is Session State in HTTP?
+when a request is sent form the client to server then a session is maintained for the request i.e connection is maintained for some time for the request and communcation can be proccessed.
 What is HTTPS?
+Http with communicated with secured way by having encryption of data in TSL/SSL over the internet. 
  
 Introduction to API
 ---------------------
 Explain REST and RESTFUL?
+REST is Representatinal State Tansfer is architectural pattern for webservices, whereas RESTful is a service which use REST pattern.
 Mention what are the HTTP methods supported by REST?
+GET,PUT,DELETE,POST.
 Explain the architectural style for creating web API?
+
 Explain the RESTFul Web Service?
+A web service is a service which are REST bassed provides an endpoint URL for accessing the resources provided by the services over the web.
 Explain what is a “Resource” in REST?
+REST architecture treats every content as a resource.Resource is the actual data sitting in the server which can be accessed by making request probably using RESTful.
 Which protocol is used by RESTful web services?
+HTTP protocol
 What is messaging in RESTful web services?
+RESTful web services use the HTTP protocol as a communication tool between the client and the server. The technique that when the client sends a message in the form of an HTTP Request, the server sends back the HTTP reply is called Messaging. These messages comprise message data and metadata, that is, information on the message itself.
 State the core components of an HTTP Request?
+Header,Body,Version,Verbs,URI
 State the core components of an HTTP response?
+Header,Version,body,Status code.
 What do you understand about payload in RESTFul web service?
+its the acutal message or the data of the request.
 Explain the caching mechanism?
+caching is frequently used data which is pulled from the server and palced in the client browser for fast and easy accessing.
 List the main differences between SOAP and REST?
-Enlist advantages and disadvantages of ‘Statelessness’.
+SOAP is XML based and it can have different protocols like SFTP,HTTP.It have envolope and extra information so it is heavy weighted calls than REST but is more secure.
+REST irrespective of data which can be json,xml etc and REST only support HTTP protocol and Light weight call can be done.Here security is mostly done at the server side and have TSL/SSL for security.
+Enlist advantages and disadvantages of ‘Statelessness’?
+Statelessness advantage is it need not required maintain any session so every request is new request to the server. 
 
 
