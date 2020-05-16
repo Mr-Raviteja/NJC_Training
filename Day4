@@ -1,17 +1,34 @@
 Object Oriented Programming Fundamentals
 ------------------------------------------
 What is the main difference between a class and an object?
-What is Encapsulation? Explain with a used case
-What is Polymorphism? Explain with a used case
+Class is a collection of methods and members which as a blueprint where object is the instantiation of the class.
+What is Encapsulation? Explain with a used case?
+Binding of data into a single unit is called Encapsulation.When object is initiated the class members and member functions binded in to the object with initialised data.
+What is Polymorphism? Explain with a used case?
+Polymorphism is the one with many forms.
+
 Explain Overriding & Overloading and its advantages
+
 What is Inheritance and different types of inheritance? Explain with a used case
+
 What is an abstract class?
+
 What is an interface and how multiple inheritance is achieved with this
+
 What are the access modifiers?
+public,private,protected,default are access modifiers which gives security to the classes,methods,variables for accessing by using the keywords.
 What are the various types of constructors?
+
 What is ‘this’ pointer?
+'this' is the keyword used for refering the current object.
 What is static and dynamic Binding?
+Static binding is allocated to the variables  or methods at compile time 
+Dynamic binding is allocated to the variables  or methods at run time
 How many instances can be created for an abstract class and why?
+
 Which OOPS concept is used as a reuse mechanism and explain with a use case
+
+Inheritance concept used for resue mechanism
+
 Please identify one practical scenario for each pillar of OOPs.
 
