@@ -6,29 +6,40 @@ What is Encapsulation? Explain with a used case?
 Binding of data into a single unit is called Encapsulation.When object is initiated the class members and member functions binded in to the object with initialised data.
 What is Polymorphism? Explain with a used case?
 Polymorphism is the one with many forms.
-
-Explain Overriding & Overloading and its advantages
-
+Example Constrction is super class it can be used as home construction, office constrction etc with different children with common use of construction class properties. 
+Explain Overriding & Overloading and its advantages?
+Overriding is a keyword used to overwrite the existing functionality of super class by its child class implementation here the new features can be implemented without distrubting existing one.
+Overloading is done in the same class methods with same names with different parameters or return tyes andmainly used in a situation when we want to create a multiple specialized versions of a method in a class.
 What is Inheritance and different types of inheritance? Explain with a used case
-
+Inheritance is the adopting/inherit base class properties to its child class.
+Single
+Mutilevel
+Hierarchical
+Hybrid
+Multiple(java is not support using classes)
 What is an abstract class?
-
+A class which is declared with the abstract keyword is known as an abstract class. It can have abstract and non-abstract methods (method with the body).
 What is an interface and how multiple inheritance is achieved with this
-
+Interface abstract type of behaviour with abtract methods where the methods are implemented the classes.Here multiple interfaces can be implemeted by one class so the mutliple inheritance or interface extends many interfaces so we achived by interfaces.so no ambiguity of implementation.
 What are the access modifiers?
 public,private,protected,default are access modifiers which gives security to the classes,methods,variables for accessing by using the keywords.
 What are the various types of constructors?
-
+2-types of constrctors:
+With arguments constrctor
+without argument constrctor
 What is ‘this’ pointer?
 'this' is the keyword used for refering the current object.
 What is static and dynamic Binding?
 Static binding is allocated to the variables  or methods at compile time 
 Dynamic binding is allocated to the variables  or methods at run time
 How many instances can be created for an abstract class and why?
-
-Which OOPS concept is used as a reuse mechanism and explain with a use case
-
-Inheritance concept used for resue mechanism
-
-Please identify one practical scenario for each pillar of OOPs.
+no instance can be created for abstract class since it does not have implementation fully so instance can be created by its subclass.
+Which OOPS concept is used as a reuse mechanism and explain with a use case?
+Inheritance concept used for resue mechanism.
+when a super class has method which is generic then the same methods can be reused in its subclass without implementing it in subclasses.
+Please identify one practical scenario for each pillar of OOPs?
+Inheritance:DNA of person.the person characteristics can be inherited to their children
+Abstraction:ATM machines we have options to select but do not know what the code inside it to render the money using our card.
+Encapsulation:Binding into one unit.For a Laptop keyboard,Battery,camera etc are encaplulated to one unit which makes whole as a laptop.
+Polymorphism:one with many forms, A Man can be a husband,father,son,Grandfather etc having different roles and resposibilities.
 
