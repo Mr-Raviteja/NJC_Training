@@ -1,0 +1,61 @@
+Unit Testing & JUnit
+-----------------------
+
+What is unit testing?
+unit test is the smallest testable part of a software it mat be method or class etc.
+What is the difference between manual testing and automated testing?
+manual testing is a person has to check/test the working functionality where automation testing is write once test many times without person and done by using selinium
+Is it necessary to write the test case for every logic? If yes, why
+yes, it can use for the working of positive and negative flows of that logic.
+What are the features of JUnit?
+It increases quality
+Fast
+Annotation and many supported libraries
+What are the important JUnit annotations? And its usage in coding
+@test is an annotation used for method tells the framework that the method is used to test a functionality.
+@before runs before @test
+@after runs after @test 
+What does Assert class?
+presents assertion methods which extends Object class.
+What is Code Coverage?
+The amount of code that has be excuted when run the project with the given input.
+What are the best practices to perform Unit Testing?
+Maintain excel sheet with positive flows and negatives with expected ooutput values.
+What is Mocking?
+simulating the functionality using a tool.
+
+GIT
+----
+
+What is GIT and its significance in SDLC?
+Git is tool which maintains distributed versioning control, integrity,repositories etc which have a major significance from development step.
+What is the difference between GIT and SVN?
+GIT is distributed version controlled system whereas SVN is centralized version control system.
+What are the advantages of using GIT?
+It has multiple repos,branches,distributed,simple and fast
+What is “Staging Area” or “Index” in GIT?
+staging is modified file from the git file.
+What is GIT stash?
+is the command used to stash the files i.e., change made files will be a kept a side temporarily
+What is the function of git clone?
+used to clone/duplicate the the repo to the location/floder
+How can you create a repository in Git?
+git init
+git add .
+git commit -m "comments"
+git remote add origin remote repository URL
+git push origin master
+What is the purpose of branching in GIT?
+we can seprate copy of files and floder in the same repo with a env of commit,push etc 
+What is the difference between ‘git remote’ and ‘git clone’?
+git remote just creates an entry in your git config that specifies a name for a particular URL. You must have an existing git repo to use this
+git clone creates a new git repository by copying an existing one located at the URI you specify.
+What is the function of ‘git diff ’ in git?
+get the differece of file changes from current file to previous version of file.
+Explain what the commit message is?
+commit msg is the breifing what is the change is made with a line of comment
+Why is it advisable to create an additional commit rather than amending an existing commit?
+Git amend internally creates a new commit and replaces the old commit. If commits have already been pushed to central repository, it should not be used to modify the previous commits.
+What is Rebasing
+rebasing is the getting the latest code from the git repo or again a copy of repo which is sitting in the git. 
+
