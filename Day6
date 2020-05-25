@@ -1,0 +1,27 @@
+Maven Fundamentals
+-------------------------
+
+Explain what is Maven? How does it work?
+Explain what is POM and its significance
+Explain what a Maven artifact is?
+List out the dependency scope in Maven?
+List out what are the build phases in Maven?
+Mention the three build lifecycle of Maven?
+List out what are the aspects does Maven Manages?
+Explain what a Maven Repository is? What are their types?
+Explain how you can exclude dependency?
+For POM what are the minimum required elements?
+
+
+CI/CD
+------
+What are the fundamental differences between DevOps & Agile?
+What is the need for DevOps?
+What are the advantages of DevOps?
+Explain with a use case where DevOps can be used in industry/ real-life.
+What are the success factors for Continuous Integration?
+What are the differences between continuous integration, continuous delivery, and continuous deployment?
+What role does the Quality Assurance (QA) team play in DevOps?
+Describe an efficient workflow for continuous integration
+What are the best practices for DevOps implementation?
+How will you approach when a project needs to implement DevOps?
